@@ -199,7 +199,6 @@ contract Manus is StandardToken, Ownable {
   }
 }
 /*
-  Crowdsale Smart Contract for the skincoin.org project
   This smart contract collects ETH, and in return emits manus tokens to the backers
 */
 contract Crowdsale is Pausable, PullPayment {
@@ -221,7 +220,7 @@ contract Crowdsale is Pausable, PullPayment {
   /* Crowdsale period */
 	uint private constant CROWDSALE_PERIOD = 90 days;
   /* Number of manus per Ether */
-	uint public constant MANUS_PER_ETHER = 6000000000; // 6,000 manus
+	uint public constant MANUS_PER_ETHER = 6000000000000000000000; // 6,000 manus
 
 
 	/*
